@@ -270,15 +270,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poseAudios:
+  - pose: 1
+    clip: {fileID: 8300000, guid: b5316465c77cfdd48af6072817de3b71, type: 3}
+    volume: 1
+    crossfadeTime: 0.3
   - pose: 2
-    clip: {fileID: 8300000, guid: 23daa84fa5189404db7492126636a098, type: 3}
+    clip: {fileID: 8300000, guid: 77ba50ed79dcf33459877f6f559914e0, type: 3}
     volume: 1
+    crossfadeTime: 0.3
   - pose: 3
-    clip: {fileID: 8300000, guid: f9eb90d6519a3e54e81984ca03fd6bae, type: 3}
+    clip: {fileID: 8300000, guid: 53a18e8777366594db117888af90a1f3, type: 3}
     volume: 1
-  audioSource: {fileID: 0}
+    crossfadeTime: 0.3
+  - pose: 4
+    clip: {fileID: 8300000, guid: ba18c03eca7fddc48899c16d847c8793, type: 3}
+    volume: 1
+    crossfadeTime: 0.3
+  - pose: 5
+    clip: {fileID: 8300000, guid: 734ac28fe9f691e42946db53f1eec53e, type: 3}
+    volume: 1
+    crossfadeTime: 0.3
+  - pose: 6
+    clip: {fileID: 8300000, guid: 4ec95207f5187184dadb80f94d107685, type: 3}
+    volume: 1
+    crossfadeTime: 0.3
+  - pose: 7
+    clip: {fileID: 8300000, guid: a751607d22d65a34295eded997f6c44f, type: 3}
+    volume: 1
+    crossfadeTime: 0.3
   poseDetector: {fileID: 1049330828}
-  minDelay: 0.3
+  defaultCrossfadeTime: 0.3
+  minDelayBetweenPoses: 0.2
+  showDebugLogs: 1
 --- !u!4 &472642099
 Transform:
   m_ObjectHideFlags: 0
@@ -466,6 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPose: 0
   handReceiver: {fileID: 1250760967}
+  extensionThreshold: 0.02
 --- !u!1 &1120381292
 GameObject:
   m_ObjectHideFlags: 0
