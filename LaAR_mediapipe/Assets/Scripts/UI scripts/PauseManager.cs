@@ -5,9 +5,10 @@ public class PauseManager : MonoBehaviour
 {
     public void OpenPauseMenu()
     {
-        Debug.Log("Botó de pausa clicat!");  // <-- Afegeix això
-        // Carrega l'escena Pause a sobre de l'actual (additive)
+        Debug.Log("Pause boton click!");
+        
         SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
-        Time.timeScale = 0f; // Congela l'AR
+        
+        Time.timeScale = 0f; // Freeze AR
     }
 }

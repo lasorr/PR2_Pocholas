@@ -5,9 +5,8 @@ public class PauseButtons_SeeNotes : MonoBehaviour
 {
    public void SeeNotes()
     {
-        // Carrega Notes additive o directa
+        // Upload Notes additive or direct
         SceneManager.LoadScene("Notes", LoadSceneMode.Additive);
-        // Opcional: descongela temps si vols que l'usuari pugui llegir
         // Time.timeScale = 1f; 
     }
 }
