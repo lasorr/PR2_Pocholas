@@ -6,15 +6,25 @@ Aquest projecte, és la entrega de la pràctica 2 de l'asignatura de Realitat Vi
 📁Assets
 
 -> 📁 Audios
+
 -> 📁 Resources 
+
 -> 📁 Scenes : Start, SampleScene, Pause, Notes
+
 -> 📁 Scripts : AudioManager, HandReceiver, PoseDetector.
+
 -> 📁 Settings
+
 -> 📁 TextMesh Pro
+
 -> 📁 TutorialInfo
+
 -> 📁 UI
+
 -> 📁 XR
+
 -> InputSystem_Actions
+
 Readme
 
 ## Per l'ús de la interficie
